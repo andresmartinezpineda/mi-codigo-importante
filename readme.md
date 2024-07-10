@@ -12,7 +12,13 @@ comandos para manejar la terminal
 
 comandos sobre git
 
-- git branch -m main            = con esto podemos cambiarle el nombre a nuestra rama de master a main
+- git branch -m main                = con esto podemos cambiarle el nombre a nuestra rama de master a main
+- git status                        = nos muestra lo que esta pasando con todos los ficheros que estamos trabajando
+- git add .                         = guarda todos lo que se ha trabajado en los ficheros hasta el momento
+- git commit -m "nombreDelCommit"   = toma la foto definitiva despues del git add y le agrega el nombre con el que se guarda la foto
+- git log                           = muestra la informacion con fecha y hora de los commit que se han realizado
+- git push -u origin main           = el primer push debe colocarse de esta manera
+- git push                          = este comando sube directamente los commits guardados a github 
 
 
 
