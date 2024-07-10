@@ -19,6 +19,7 @@ comandos sobre git
 - git log                           = muestra la informacion con fecha y hora de los commit que se han realizado
 - git push -u origin main           = el primer push debe colocarse de esta manera
 - git push                          = este comando sube directamente los commits guardados a github 
+- git checkout nombreDeFichero      = con este comando puedes eliminar todos los cambios que le hiciste a un fichero hasta el ultimo commit o foto
 
 
 
