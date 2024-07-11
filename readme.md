@@ -18,14 +18,15 @@ comandos sobre git
 - git add .                         = guarda todos lo que se ha trabajado en los ficheros hasta el momento
 - git commit -m "nombreDelCommit"   = toma la foto definitiva despues del git add y le agrega el nombre con el que se guarda la foto
 - git log                           = muestra la informacion con fecha y hora de los commit que se han realizado
-    * git log --graph                   = es lo mismo que git log pero nos muestra los commits en forma de rama
+    * git log --graph               = es lo mismo que git log pero nos muestra los commits en forma de rama
     * git log --graph --decorate --all --oneline = es lo mismo que git log pero muestra los commit en una sola linea
 - git push                          = este comando sube directamente los commits guardados a github 
 - git checkout nombreDeFichero      = con este comando puedes eliminar todos los cambios que le hiciste a un fichero hasta el ultimo commit o foto
 - git config --global alias.nombreDelAlias "comando que quiero lanzar" = de esta manera podemos ponerle un alias a un comando largo que utilicemos mucho
 
 
-- .gitignore                        = esto es el nombre de un fichero para poner dentro de el los ficheros que quiero ignorar
+- .gitignore                        = esto es el nombre de un fichero para poner dentro de el los ficheros que quiero ignorar y no subir a mi github
+    * luego de crear el fichero ingreso a el y pongo **/nombreDelFichero
 
 
 
