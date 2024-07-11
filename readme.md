@@ -23,6 +23,7 @@ comandos sobre git
 - git push                          = este comando sube directamente los commits guardados a github 
 - git checkout nombreDeFichero      = con este comando puedes eliminar todos los cambios que le hiciste a un fichero hasta el ultimo commit o foto
 - git config --global alias.nombreDelAlias "comando que quiero lanzar" = de esta manera podemos ponerle un alias a un comando largo que utilicemos mucho
+- git diff                          = con este comando revisamos los cambios que hemos hecho despues de haber hecho el ultimo commit(foto)
 
 
 - .gitignore                        = esto es el nombre de un fichero para poner dentro de el los ficheros que quiero ignorar y no subir a mi github
