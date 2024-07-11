@@ -1,6 +1,3 @@
-
-
-
                                 /////////  comandos para manejar la terminal   /////////
 
 - cd '.\nombreDeLaCarpeta'      = entra a la carpeta que le indique
@@ -14,7 +11,7 @@
 
 - git branch -m main                = con esto podemos cambiarle el nombre a nuestra rama de master a main
 
-- git push -u origin main            = el primer push debe colocarse de esta manera
+- git push -u origin main           = el primer push debe colocarse de esta manera
 
 - git status                        = nos muestra lo que esta pasando con todos los ficheros que estamos trabajando
 
@@ -38,10 +35,40 @@
 - git reset --hard numeroIdentificador = con este comando volvemos a un commit antrior borrando todos los commits que estan despues de el y podemos usarlo para volver asia adelante  tambien en caso de cometer error(((((  este comando es preferible usarlo en caso extremo ))))).
     * git reflog con este comando podemos revisar el historial de cambios que hemos hecho, en caso de hacer un git reser por error.
 
+- git tag nombre_TAG                = con este comando tagueamos o identificamos nuestros commit, por ejemplo taguear nuestra primera version de app
+    * git tag                       = este comando es para revisar los tags que tenemos guardados 
 
 
 - .gitignore                        = esto es el nombre de un fichero para poner dentro de el los ficheros que quiero ignorar y no subir a mi github
-    * luego de crear el fichero ingreso a el y pongo **/nombreDelFichero
+* luego de crear el fichero ingreso a el y pongo **/nombreDelFichero
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            ////////// javascript ///////////
+
+.split("")                          = este metodo separa cada caracter de un string y lo combierte en un array.
+
+.reverse()                          = este metodo invierte totalmente los elementos de un array.
+
+.join("")                           = este metodo unifica un array de caracteres strings para volverlo un solo string.
+
+? textoSiEsTrue : textoSiEsFalse    = con esto podemos colocar el texto que queramos retornar si la respuesta es true o false
+
+
+
+
+
+
 
 
 
@@ -57,20 +84,22 @@
 
                        ///////////  trabajos para practicar codigo  ////////////
 
-1. hacer un bucle con while en el que hagas una cuenta atras para lanzar un cohete 
+1. hacer un bucle con while en el que hagas una cuenta atras para lanzar un cohete. 
     - adeñadirle un bucle anidado que haga tres revisines por cada numero que cuenta atras
 
-2. hacer un condicional que verifique si un usuario es mayor de edad, si es casi mayor de edad o si es menor de edad
+2. hacer un condicional que verifique si un usuario es mayor de edad, si es casi mayor de edad o si es menor de edad.
     - tambien que revise si tiene licencia de conducir
     - por ultimo que devuelva un mensaje diciendo("puedes conducir" o "no puedes conducir")
 
-3. hacer un bucle con for para contar los numeros de 1 a 100 
+3. hacer un bucle con for para contar los numeros de 1 a 100.
     - indicando cuales son los numeros pares y los numeros impares
     - tambien vas a hacer que el bucle se detenga en el numero 50
     - tambien vas a hacer que el codigo omita imprimir numeros impares
 
-4. crear un objeto, con propiedades, arrays, objetos anidados y con una funcion dentro del objeto
+4. crear un objeto, con propiedades, arrays, objetos anidados y con una funcion dentro del objeto.
     - utilizar el codigo "for in" para ver las propiedades del objeto
     - imprimir el resultado del metodo(function dentro del objeto)
     - hacer una constante para sacar una propiedad del objeto y cambiarla de nombre
     - hacer una constante para sacar varias propiedades para luego no estar entrando en el objeto a imprimirlas
+
+5. crear una funcion que diga si un string es palindromo o no.
