@@ -26,23 +26,27 @@
 - git push                          = este comando sube directamente los commits guardados a github 
 
 - git checkout nombreDeFichero      = con este comando puedes eliminar todos los cambios que le hiciste a un fichero hasta el ultimo commit o foto
-    * git checkout numeroIdentificadorDelCommit = con este comando podemos movernos entre las ramas o commit que tenemos 
+- git checkout numeroIdentificadorDelCommit = con este comando podemos movernos entre las ramas o commit que tenemos 
     
 - git config --global alias.nombreDelAlias "comando que quiero lanzar" = de esta manera podemos ponerle un alias a un comando largo que utilicemos mucho
 
 - git diff                          = con este comando revisamos los cambios que hemos hecho despues de haber hecho el ultimo commit(foto)
 
 - git reset --hard numeroIdentificador = con este comando volvemos a un commit antrior borrando todos los commits que estan despues de el y podemos usarlo para volver asia adelante  tambien en caso de cometer error(((((  este comando es preferible usarlo en caso extremo ))))).
-    * git reflog con este comando podemos revisar el historial de cambios que hemos hecho, en caso de hacer un git reser por error.
+- git reflog con este comando podemos revisar el historial de cambios que hemos hecho, en caso de hacer un git reser por error.
 
-- git tag nombre_TAG                = con este comando tagueamos o identificamos nuestros commit, por ejemplo taguear nuestra primera version de app
-    * git tag                       = este comando es para revisar los tags que tenemos guardados 
+- git tag nombreTag                 = con este comando tagueamos o identificamos nuestros commit, por ejemplo taguear nuestra primera version de app
+- git tag                           = este comando es para revisar los tags que tenemos guardados 
 
 - git branch nombreDeRama           = con este comando podemos crear una nueva rama en la que vamos a trabajar
-
 - git switch nombreDeRama           = este comando lo uso para pasar de una rama a otra
-
 - git merge nombreDeRama            = con este comando podemos unir las ramas en las que estamos trabajando 
+
+- git stash                         = con este comando hacemos un commit temporal en nuestro ordenador para evitar subirlo (pausar el trabajo)
+- git stash list                    = con este comando vemos la lista de commits temporales que hemos realizado
+- git stash pop                     = con este comando recuperamos la informacion de nuestro stash
+- git stash drop                    = con este comando eliminamos la informacion guardada en nuestro stash 
+
 
 
 - .gitignore                        = esto es el nombre de un fichero para poner dentro de el los ficheros que quiero ignorar y no subir a mi github
