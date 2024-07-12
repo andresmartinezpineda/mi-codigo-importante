@@ -38,6 +38,8 @@
 - git tag nombre_TAG                = con este comando tagueamos o identificamos nuestros commit, por ejemplo taguear nuestra primera version de app
     * git tag                       = este comando es para revisar los tags que tenemos guardados 
 
+- git branch nombreDeRama           = con este comando podemos crear una nueva rama en la que vamos a trabajar
+
 
 - .gitignore                        = esto es el nombre de un fichero para poner dentro de el los ficheros que quiero ignorar y no subir a mi github
 * luego de crear el fichero ingreso a el y pongo **/nombreDelFichero
@@ -63,6 +65,35 @@
 .join("")                           = este metodo unifica un array de caracteres strings para volverlo un solo string.
 
 ? textoSiEsTrue : textoSiEsFalse    = con esto podemos colocar el texto que queramos retornar si la respuesta es true o false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        ////////// herramientas y apps utiles para programacion //////////
+
+1. charts.css                   = es una framework de css que me puede ayudar a hacer graficas.
+
+2. pagespeed insights           = nos ayuda a revisar que cosas podemos optimizar de nuestra pagina para darle un mejor rendimiento
+
+3. yesicon                      = esta app me proporciona iconos para mis apps
+
+
+
 
 
 
