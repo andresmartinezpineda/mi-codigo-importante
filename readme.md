@@ -41,6 +41,7 @@
 - git branch nombreDeRama           = con este comando podemos crear una nueva rama en la que vamos a trabajar
 - git switch nombreDeRama           = este comando lo uso para pasar de una rama a otra
 - git merge nombreDeRama            = con este comando podemos unir las ramas en las que estamos trabajando 
+- git branch -d nombreDeRama        = con este comando eliminamos las ramas en las que hemos terminado de trabajar
 
 - git stash                         = con este comando hacemos un commit temporal en nuestro ordenador para evitar subirlo (pausar el trabajo)
 - git stash list                    = con este comando vemos la lista de commits temporales que hemos realizado
