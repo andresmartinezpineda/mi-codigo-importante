@@ -42,6 +42,8 @@
 
 - git switch nombreDeRama           = este comando lo uso para pasar de una rama a otra
 
+- git merge nombreDeRama            = con este comando podemos unir las ramas en las que estamos trabajando 
+
 
 - .gitignore                        = esto es el nombre de un fichero para poner dentro de el los ficheros que quiero ignorar y no subir a mi github
 * luego de crear el fichero ingreso a el y pongo **/nombreDelFichero
