@@ -54,7 +54,7 @@
 * luego de crear el fichero ingreso a el y pongo **/nombreDelFichero
 
 
-
+esto diferencia mi rama login
 
 
 
@@ -95,11 +95,16 @@
 
                         ////////// herramientas y apps utiles para programacion //////////
 
-1. charts.css                   = es una framework de css que me puede ayudar a hacer graficas.
+1. charts.css                       = es una framework de css que me puede ayudar a hacer graficas.
 
-2. pagespeed insights           = nos ayuda a revisar que cosas podemos optimizar de nuestra pagina para darle un mejor rendimiento
+2. pagespeed insights               = nos ayuda a revisar que cosas podemos optimizar de nuestra pagina para darle un mejor rendimiento
 
-3. yesicon                      = esta app me proporciona iconos para mis apps
+3. yesicon                          = esta app me proporciona iconos para mis apps
+
+4. https://retosdeprogramacion.com  = en esta pagina puedo resolver retos de programacion para mejorar mis habilidades
+
+5. leetcode                         = es esta app tambien puedo resolver retos de programacion para mejorar mis habilidades de programacion
+
 
 
 
