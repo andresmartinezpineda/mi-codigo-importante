@@ -130,7 +130,7 @@ esto diferencia mi rama login
                        ///////////  trabajos para practicar codigo  ////////////
 
 1. hacer un bucle con while en el que hagas una cuenta atras para lanzar un cohete. 
-    - adeñadirle un bucle anidado que haga tres revisines por cada numero que cuenta atras
+    - adeñadirle un bucle anidado que haga tres revisiones por cada numero que cuenta atras
 
 2. hacer un condicional que verifique si un usuario es mayor de edad, si es casi mayor de edad o si es menor de edad.
     - tambien que revise si tiene licencia de conducir
@@ -146,5 +146,7 @@ esto diferencia mi rama login
     - imprimir el resultado del metodo(function dentro del objeto)
     - hacer una constante para sacar una propiedad del objeto y cambiarla de nombre
     - hacer una constante para sacar varias propiedades para luego no estar entrando en el objeto a imprimirlas
+    - eliminar una propiedad del objeto
+    - agregar un objeto
 
 5. crear una funcion que diga si un string es palindromo o no.
