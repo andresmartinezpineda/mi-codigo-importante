@@ -54,8 +54,6 @@
 * luego de crear el fichero ingreso a el y pongo **/nombreDelFichero
 
 
-esto diferencia mi rama login
-
 
 
 
@@ -75,9 +73,17 @@ esto diferencia mi rama login
 
 ? textoSiEsTrue : textoSiEsFalse    = con esto podemos colocar el texto que queramos retornar si la respuesta es true o false
 
+//                                  = esto nos sirve para poner comentarios de una sola linea en nuestro codigo
+/**/                                = esto nos sirve para hacer varias lineas de codigo
 
 
 
+
+
+**** operadores aritmeticos javascript ****
+%   = se le llama modulo y se usa para saber si un numero es divisible por otro ya que si no lo es nos muestra el numero restante de la division
+
+**  = se le llama exponente se usa para saber el resultado de un numero al cuadrado, al cubico, etc 
 
 
 
