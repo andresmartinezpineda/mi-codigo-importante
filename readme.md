@@ -80,19 +80,25 @@
 
 
 
-**** operadores aritmeticos javascript ****
-%   = se le llama modulo y se usa para saber si un numero es divisible por otro ya que si no lo es nos muestra el numero restante de la division
+**** operadores aritmeticos y comparativos javascript ****
 
-**  = se le llama exponente se usa para saber el resultado de un numero al cuadrado, al cubico, etc 
+%           = se le llama modulo y se usa para saber si un numero es divisible por otro ya que si no lo es nos muestra el numero restante de la division
+ejemplo: 10 % 3 = 1
 
+**          = se le llama exponente se usa para saber el resultado de un numero al cuadrado, al cubico, etc 
+ejemplo: 10 ** 3 = 1000
 
+==          = operador de igualdad devil: primero intenta hacer conversiones necesarias antes de compararlos a ver si son iguales
+ejemplo: 10 == "10"  (true)
 
+===         = operador de igualdad estricta: es para ver si los valores son del mismo tipo y mismo valor, en caso de que no lo sean devolvera false
+ejemplo: 10 === "10" (false)
 
+!=          = operador de desigualdad devil: primero intenta hacer conversiones necesarias antes de compararlos a ver si son desiguales
+ejemplo: 0 != "0"    (false) 
 
-
-
-
-
+!==         = operador de desigualdad estricta: es para ver si los valores son totalmente de diferente tipo y valor si son diferentes arrojara false
+ejemplo 0 !== "0"    (false)
 
 
 

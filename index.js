@@ -7,3 +7,5 @@ function esPalindromo(cadenaDeTexto){
 }
 
 console.log(esPalindromo('amor a roma'))
+
+
