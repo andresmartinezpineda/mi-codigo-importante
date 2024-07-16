@@ -48,10 +48,16 @@
 - git stash pop                     = con este comando recuperamos la informacion de nuestro stash
 - git stash drop                    = con este comando eliminamos la informacion guardada en nuestro stash 
 
+- git fetch                         = se descarga el historial del repositorio sin los cambios
+- git pull                          = se descarga el histotial del repositorio con los cambios (recomendado)
+
+
 
 
 - .gitignore                        = esto es el nombre de un fichero para poner dentro de el los ficheros que quiero ignorar y no subir a mi github
 * luego de crear el fichero ingreso a el y pongo **/nombreDelFichero
+
+- https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf herramienta para saber cuales son los comandos mas importantes de git
 
 
 
