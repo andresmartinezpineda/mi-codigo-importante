@@ -168,3 +168,14 @@ ejemplo 0 !== "0"    (false)
     - agregar un objeto
 
 5. crear una funcion que diga si un string es palindromo o no.
+
+
+
+
+
+
+
+
+
+
+esto lo cambio desde el repo
