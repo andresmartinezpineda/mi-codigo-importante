@@ -50,6 +50,8 @@
 
 - git fetch                         = se descarga el historial del repositorio sin los cambios
 - git pull                          = se descarga el histotial del repositorio con los cambios (recomendado)
+- git clone                         = se clona un proyecto en el que se vaya a trabajar
+
 
 
 
@@ -60,7 +62,41 @@
 - https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf herramienta para saber cuales son los comandos mas importantes de git
 
 
+                            //////// repositorio colaborativo con HTPPS ////////
 
+1. voy al github de la persona que tiene el proyecto original
+
+2. oprimo el boton fork en la parte superior derecha del repositorio
+
+3. le pongo el nombre que desee al repositorio
+
+4. selecciono si quiero copiar solo la rama main o todas las ramas
+
+5. crear fork
+
+6. hago el git clone proyecto que ahora esta en mi repositorio
+
+7. antes de empezar a hacer cambios al repositorio de oprimo en la parte superior de los commits(sync fork) para saber si el codigo esta al dia con el original
+
+8. luego de haber hecho los cambios le oprimo al lado de (sync fork) donde dice(contribute) luego le oprimo open pull request
+
+9. aqui agregamos el nombre del commit que hicimos en el repo y tambien podemos agregarle un comentario
+
+
+((((((A partir de este momento entra en accion la persona dueño el repositorio original ))))))
+
+1. revisa los pull request en la parte superior derecha
+
+2. va a files changed
+
+3. oprime en el boton verde (review changes)
+
+4. aca elige si quiere 
+    * enviar solo un comentario
+    * aprovar (tambien si quieres puedes poner un comentario)
+    * pedir cambios a lo que quieres que te apruebe
+
+5. oprime (merge pull request) y (luego confirm merge)
 
 
 
