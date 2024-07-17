@@ -167,6 +167,24 @@ ejemplo 0 !== "0"    (false)
 
 
 
+                        ////////// extenciones que me pueden servir para mi vscode ///////////
+
+((( las siguientes fueron sacadas de un video de victor robles https://www.youtube.com/watch?v=PTpWW05TpUc )))
+
+1. html to css autocompletion       = me permite reconocer en mi css as clases que tengo puestas en mi HTML
+
+2. bookmarks                        = me permite resaltar codigo importante
+
+3. CSS peek                         = me permite darle click a una clase y me envia directamente al css de esta clase
+
+4. prettier - code formatter        = me organiza el codigo de css con los espaciados correctos y todo para llevar un mejor orden
+(click derecho, format document, completier)
+
+
+
+
+
+
 
 
 
