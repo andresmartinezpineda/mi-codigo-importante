@@ -5,4 +5,15 @@ function esPalindromo(cadena){
     return cadena == reverser.join("")? 'es palindromo': 'no es palindromo'
 }
 
-console.log(esPalindromo('osos'))
+
+
+
+
+function split(cadena){
+    let resultado = cadena.split("")
+
+    console.log(resultado)
+}
+
+
+console.log(split('hola, mundo'))

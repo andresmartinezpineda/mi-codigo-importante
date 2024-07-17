@@ -13,9 +13,9 @@
 
 - git push -u origin main           = el primer push debe colocarse de esta manera
 
-- git status                        = nos muestra lo que esta pasando con todos los ficheros que estamos trabajando
+- git status                        = Muestra el estado de los archivos, indicando si hay cambios sin confirmar o archivos nuevos.
 
-- git add .                         = guarda todos lo que se ha trabajado en los ficheros hasta el momento
+- git add .                         = Agrega todos los cambios realizados en los archivos al área de preparación (staging area) para el próximo commit.
 
 - git commit -m "nombreDelCommit"   = toma la foto definitiva despues del git add y le agrega el nombre con el que se guarda la foto
 
@@ -23,7 +23,7 @@
     * git log --graph               = es lo mismo que git log pero nos muestra los commits en forma de rama
     * git log --graph --decorate --all --oneline = es lo mismo que git log pero muestra los commit en una sola linea
 
-- git push                          = este comando sube directamente los commits guardados a github 
+- git push                          = Sube los commits guardados localmente a GitHub o al repositorio remoto. 
 
 - git checkout nombreDeFichero      = con este comando puedes eliminar todos los cambios que le hiciste a un fichero hasta el ultimo commit o foto
 - git checkout numeroIdentificadorDelCommit = con este comando podemos movernos entre las ramas o commit que tenemos 
@@ -116,6 +116,7 @@
 ? textoSiEsTrue : textoSiEsFalse    = con esto podemos colocar el texto que queramos retornar si la respuesta es true o false
 
 //                                  = esto nos sirve para poner comentarios de una sola linea en nuestro codigo
+
 /**/                                = esto nos sirve para hacer varias lineas de codigo
 
 
