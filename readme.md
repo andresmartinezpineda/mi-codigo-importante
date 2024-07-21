@@ -200,6 +200,7 @@ ejemplo 0 !== "0"    (false)
 
 
 
+
                        ///////////  trabajos para practicar codigo  ////////////
 
 1. hacer un bucle con while en el que hagas una cuenta atras para lanzar un cohete. 
@@ -223,3 +224,7 @@ ejemplo 0 !== "0"    (false)
     - agregar un objeto
 
 5. crear una funcion que diga si un string es palindromo o no.
+
+
+
+datos agregados hoy 20-07-2024
