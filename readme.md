@@ -1,4 +1,4 @@
-                                /////////  comandos para manejar la terminal   /////////
+#                               /////////  comandos para manejar la terminal   /////////
 
 - cd '.\nombreDeLaCarpeta'      = entra a la carpeta que le indique
 - cd..                          = retrocede una carpeta
@@ -7,7 +7,7 @@
 
 
 
-                                    ////////    comandos sobre git    ////////////
+#                                    ////////    comandos sobre git    ////////////
 
 - git branch -m main                = con esto podemos cambiarle el nombre a nuestra rama de master a main
 
@@ -62,7 +62,7 @@
 - https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf herramienta para saber cuales son los comandos mas importantes de git
 
 
-                            //////// repositorio colaborativo con HTPPS ////////
+#                            //////// repositorio colaborativo con HTPPS ////////
 
 1. voy al github de la persona que tiene el proyecto original
 
@@ -105,7 +105,7 @@
 
 
 
-                            ////////// javascript ///////////
+#                           ////////// javascript ///////////
 
 .split("")                          = este metodo separa cada caracter de un string y lo combierte en un array.
 
@@ -123,7 +123,56 @@
 
 
 
-**** operadores aritmeticos y comparativos javascript ****
+
+
+
+
+
+
+
+
+
+#                            /////////// aprendiendo react ////////////
+
+
+## informacion importante a tener en cuenta #
+
+- en el HTML hay una etiqueta <script type = "module" src="/src/main.jsx"><script> esto nos indica el fichero principal con el que estaremos trabajando(punto de entrada)
+
+- iniciando nuestro proyecto en jsx podemos eliminar todos los archivos de la carpeta src y dejar unicamente <assets> y nuestro punto de entrada <main.jsx>
+
+- iniciando en nuestro (punto de entrada) encontramos un codigo el cual es ReactDOM.createRoot(document.getElementById('root')).render("  "), el cual podemos modificar por
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render("hola mundo")
+para poder empezar a trabajar mas comodo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#                       //////////// operadores aritmeticos y comparativos javascript /////////
 
 %           = se le llama modulo y se usa para saber si un numero es divisible por otro ya que si no lo es nos muestra el numero restante de la division
 ejemplo: 10 % 3 = 1
@@ -148,7 +197,7 @@ ejemplo 0 !== "0"    (false)
 
 
 
-                        ////////// herramientas y apps utiles para programacion //////////
+#                        ////////// herramientas y apps utiles para programacion //////////
 
 1. charts.css                       = es una framework de css que me puede ayudar a hacer graficas.
 
@@ -160,6 +209,9 @@ ejemplo 0 !== "0"    (false)
 
 5. leetcode                         = es esta app tambien puedo resolver retos de programacion para mejorar mis habilidades de programacion
 
+6. markmap                          = crea mapas explicando como funciona un codigo, normalmente se usa para pedir que esplique algo que hizo chat gpt
+
+7. mermaid AI                       = genera graficos a partir del lenguaje que utilizamos para programar, se usa comunmente para chat gpt
 
 
 
@@ -168,7 +220,8 @@ ejemplo 0 !== "0"    (false)
 
 
 
-                        ////////// extenciones que me pueden servir para mi vscode ///////////
+
+#                       ////////// extenciones que me pueden servir para mi vscode ///////////
 
 ((( las siguientes fueron sacadas de un video de victor robles https://www.youtube.com/watch?v=PTpWW05TpUc )))
 
@@ -201,7 +254,7 @@ ejemplo 0 !== "0"    (false)
 
 
 
-                       ///////////  trabajos para practicar codigo  ////////////
+##                       ///////////  trabajos para practicar codigo  ////////////
 
 1. hacer un bucle con while en el que hagas una cuenta atras para lanzar un cohete. 
     - adeñadirle un bucle anidado que haga tres revisiones por cada numero que cuenta atras
@@ -226,5 +279,3 @@ ejemplo 0 !== "0"    (false)
 5. crear una funcion que diga si un string es palindromo o no.
 
 
-
-datos agregados hoy 20-07-2024
