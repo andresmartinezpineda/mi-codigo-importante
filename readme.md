@@ -148,7 +148,7 @@ root.render("hola mundo")
 para poder empezar a trabajar mas comodo
 
 
-- si quiero poner mas de un boton de utilizar el <React.Fragment> </React.Fragment> o para optimizar codigo simplemente puedo colocar <> </>
+- si quiero poner mas de un boton debo utilizar el <React.Fragment> </React.Fragment> o para optimizar codigo simplemente puedo colocar <> </>
 
 - para no ocupar tanto espacio con codigo innecesario en mi punto de entrada puedo crear componentes
 
@@ -162,11 +162,32 @@ para poder empezar a trabajar mas comodo
 
 - luego de crear el archivo con el componente, lo primero que ponemos antes de nuestra funcion es <export>, ejemplo:
 
-export function (){....}
+export function App(){....}
 
 - luego de esto vamos a nuestro punto de entrada y ponemos en la parte superior <import> con la ruta del componente, ejemplo:
 
 import { App } from './App.jsx'
+
+- para usar el componente en el codigo voy a poner <App />
+
+
+
+## como estilar los componentes
+
+1. voy a crear un archivo con la estencion .css
+
+2. lo importamos a nuestro que queremos estilar, EJEMPLO, supongamos que el nombre del archivo es App.css:
+
+import 'App.css'
+
+3. para identificar y estilar nuestros componenetes es importante ponerles clases de la siguiente manera 
+    * className ... EJEMPLO
+    <article className = 'miArticle'>
+
+
+### preguntas sobre la clase de hoy
+
+
 
 
 
