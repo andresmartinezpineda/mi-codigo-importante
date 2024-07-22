@@ -135,7 +135,7 @@
 #                            /////////// aprendiendo react ////////////
 
 
-## informacion importante a tener en cuenta #
+## informacion importante a tener en cuenta 
 
 - en el HTML hay una etiqueta <script type = "module" src="/src/main.jsx"><script> esto nos indica el fichero principal con el que estaremos trabajando(punto de entrada)
 
@@ -148,7 +148,25 @@ root.render("hola mundo")
 para poder empezar a trabajar mas comodo
 
 
+- si quiero poner mas de un boton de utilizar el <React.Fragment> </React.Fragment> o para optimizar codigo simplemente puedo colocar <> </>
 
+- para no ocupar tanto espacio con codigo innecesario en mi punto de entrada puedo crear componentes
+
+
+
+## creacion de componentes react
+
+- los componentes se escriben en PascalCase
+
+- los componentes se crean en la carpeta (src) con la extencion .jsx
+
+- luego de crear el archivo con el componente, lo primero que ponemos antes de nuestra funcion es <export>, ejemplo:
+
+export function (){....}
+
+- luego de esto vamos a nuestro punto de entrada y ponemos en la parte superior <import> con la ruta del componente, ejemplo:
+
+import { App } from './App.jsx'
 
 
 
@@ -239,6 +257,20 @@ ejemplo 0 !== "0"    (false)
 
 
 
+#                   /////// palabras que es importante saber el significado ///////
+
+- componente (react) = un componente es una pieza de codigo encapsulada que puede ser reutizilable
+
+componentes funcionales: Son funciones de JavaScript que aceptan un objeto de propiedades (llamadas “props”) y devuelven elementos de React.
+
+componentes de clase: Se definen utilizando clases de ES6 y extienden la clase React.Component 
+
+- renderizar (react) = 
+
+
+
+
+
 
 
 
@@ -277,5 +309,4 @@ ejemplo 0 !== "0"    (false)
     - agregar un objeto
 
 5. crear una funcion que diga si un string es palindromo o no.
-
 
