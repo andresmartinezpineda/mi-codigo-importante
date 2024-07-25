@@ -185,7 +185,14 @@ import 'App.css'
     <article className = 'miArticle'>
 
 
-### preguntas sobre la clase de hoy
+
+
+## preguntas importantes de react
+
+1.  ¿cual es la base de la reutilizacion en react?
+la base de la reutilizacion en react son los parametros de los componentes
+
+
 
 
 
@@ -298,6 +305,10 @@ componentes de clase: Se definen utilizando clases de ES6 y extienden la clase R
 
 
 
+
+
+
+cosas por aprender scrum
 
 
 
