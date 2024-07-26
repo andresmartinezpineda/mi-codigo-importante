@@ -198,6 +198,36 @@ la base de la reutilizacion en react son los parametros de los componentes
 
 
 
+#                             //////// programacion orientada a objetos //////
+
+## Encapsulacion
+
+la encapsulacion busca que cada objeto sea responsable de su propia informacion y su propio estado
+
+### getters y setters
+
+los getters = es la herramienta que usamos para ver los valores y 
+
+
+
+
+
+
+
+
+
+
+
+## preguntas sobre la programacion orientada a objetos
+
+¿que son los getters y los setters?
+
+
+
+
+
+
+
 
 
 
@@ -301,6 +331,8 @@ componentes de clase: Se definen utilizando clases de ES6 y extienden la clase R
 
 
 
+- scrum             = a continuacion dejo el enlace de mi presentacion en mapa mental  
+https://mm.tt/app/map/3369819265?t=72GivyLvcQ
 
 
 
@@ -308,7 +340,7 @@ componentes de clase: Se definen utilizando clases de ES6 y extienden la clase R
 
 
 
-cosas por aprender scrum
+
 
 
 
