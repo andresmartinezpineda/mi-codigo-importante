@@ -200,7 +200,53 @@ la base de la reutilizacion en react son los parametros de los componentes
 
 #                             //////// programacion orientada a objetos //////
 
-## Encapsulacion
+
+## cada objeto tiene datos y funcionalidad 
+
+### datos = atributos             = los atributos son los datos que le proporcionamos al objeto como:
+nombre:
+apellido:
+correo: 
+etc.
+
+### funcionalidad = metodos       = los metodos son las funciones que tiene el objeto, por ejemplo si es un usuario las funciones serian:
+editar perfil
+cerrar sesion
+cambiar contraseña
+etc
+
+### instanciar                    = es crear un objeto por medio clase  (la clase es una plantilla que le damos a una app para crear objetos)ejemplo:
+clase{ 
+    nombre:
+    funcionQueCumple:
+}
+
+intancia1{ 
+    nombre: "nevera"
+    funcionQueCumple: "enfriar la comida"
+}
+
+intancia2{ 
+    nombre: "estufa"
+    funcionQueCumple:"cocinar la comida"
+}
+
+## abstraccion
+sintaxis = la abstraccion es pensar que atributos y metodos va a tener nuestra clase
+
+## Encapsulamiento
+sintaxis = tal como lo indica su nombre es el encapsular un objeto de esta manera evita crear errores y que un objeto no interfiera en el funcionamiento del otro
+
+## polimorfismo
+sintaxis = es polimorfismo significa que podamos darle la misma orden a diferentes objetos y todos lo hagan a su manera cumpliendo su funcion. Ejemplo:
+
+
+## herencia
+sintaxis = es lo que un objeto le hereda al otro sin nesecidad de que funcione exactamente igual, por ejemplo
+
+la clase padre tiene la funcion de crear un usuario, pero le creamos una clase hijo la cual tambien crea usuario pero en este caso sera un usuario profesor
+luego tambien hay otra clase hijo que tambien deja crear usuario pero en este caso sera administrador,
+
 
 la encapsulacion busca que cada objeto sea responsable de su propia informacion y su propio estado
 
