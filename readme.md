@@ -1,3 +1,13 @@
+
+:gem: means **really _awesome/useful_**.<br />
+![Globe][globe] means that **it's _webapp/webservice_**.<br />
+![Android OS][android-os] means that **runs on _Android_**.<br />
+![iOS Logo][ios-logo] means that **runs on _iOS_**.<br />
+![Mac OS X][macosx] means that **runs on _macOS_**.<br />
+![Linux][linux] means that **runs on _Linux_**.<br />
+![Windows][windows] means that **runs on _Windows_**.<br />
+
+
 Este es un ejemplo de código 
 
 `main{
