@@ -135,22 +135,49 @@
 #                            /////////// aprendiendo react ////////////
 
 
+## primeros pasos para crear una app en react
+
+1. ponemos en nuestra terminal el codigo ´npx create-react-app mi_app´ (mi_app puede ser reeamplazado por el nombre que desee ponerle a mi aplicacion)
+2. luego desde la terminal entramos a nuestra app con ´cd mi_app´
+3. por ultimo pomemos npm start y ya tenemos nuestros archivos nesesarios para crear nuestra app react y emprezar a programar
+
+## curso de react
+
+lo que aprendere en este curso es:
+
+- conceptos basicos de React
+- terminos con Babel
+- WebPack
+- jsx
+- componentes 
+- props 
+- states
+- useEffect
+- ciclos de vida
+
+- tambien aprendere a crear apps simples con todos los conocimientos de este curso
+
+
+
+
+
+
+
+
+
 ## informacion importante a tener en cuenta 
 
 - en el HTML hay una etiqueta <script type = "module" src="/src/main.jsx"><script> esto nos indica el fichero principal con el que estaremos trabajando(punto de entrada)
 
 - iniciando nuestro proyecto en jsx podemos eliminar todos los archivos de la carpeta src y dejar unicamente <assets> y nuestro punto de entrada <main.jsx>
 
-- iniciando en nuestro (punto de entrada) encontramos un codigo el cual es ReactDOM.createRoot(document.getElementById('root')).render("  "), el cual podemos modificar por
-
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render("hola mundo")
-para poder empezar a trabajar mas comodo
 
 
-- si quiero poner mas de un boton debo utilizar el <React.Fragment> </React.Fragment> o para optimizar codigo simplemente puedo colocar <> </>
 
-- para no ocupar tanto espacio con codigo innecesario en mi punto de entrada puedo crear componentes
+
+
+
+
 
 
 
@@ -191,6 +218,20 @@ import 'App.css'
 
 1.  ¿cual es la base de la reutilizacion en react?
 la base de la reutilizacion en react son los parametros de los componentes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -347,14 +388,19 @@ ejemplo 0 !== "0"    (false)
 
 ((( las siguientes fueron sacadas de un video de victor robles https://www.youtube.com/watch?v=PTpWW05TpUc )))
 
-1. html to css autocompletion       = me permite reconocer en mi css as clases que tengo puestas en mi HTML
+1. html to css autocompletion       = me permite reconocer en mi css las clases que tengo puestas en mi HTML
 
 2. bookmarks                        = me permite resaltar codigo importante
 
 3. CSS peek                         = me permite darle click a una clase y me envia directamente al css de esta clase
 
-4. prettier - code formatter        = me organiza el codigo de css con los espaciados correctos y todo para llevar un mejor orden
-(click derecho, format document, completier)
+4. ES7+React/redux/React-Native snippets = nos da atajos para hacer codigo mas rapido
+
+5. eslint                           = nos ayuda a tener un codigo mas ordenado
+
+6. material icon theme              = nos muestra los iconos de nuestros diferentes archivos
+
+7. one dark pro                     = da un color bonito a nuestro vscode
 
 
 
