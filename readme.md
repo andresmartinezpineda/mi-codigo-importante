@@ -1,15 +1,3 @@
-
-:gem: 
-:fire:
-
-Este es un ejemplo de código 
-
-`main{
-Var suma = a +b
-} 
-`
-
-
 #                               /////////  comandos para manejar la terminal   /////////
 
 - cd '.\nombreDeLaCarpeta'      = entra a la carpeta que le indique
