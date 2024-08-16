@@ -86,7 +86,8 @@
 9. aqui agregamos el nombre del commit que hicimos en el repo y tambien podemos agregarle un comentario
 
 
-[!IMPORTANT] A partir de este momento entra en accion la persona dueño el repositorio original
+[!IMPORTANT]
+A partir de este momento entra en accion la persona dueño el repositorio original
 
 1. revisa los pull request en la parte superior derecha
 
