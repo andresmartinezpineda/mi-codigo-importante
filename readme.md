@@ -1,4 +1,6 @@
-#                               /////////  comandos para manejar la terminal   /////////
+# BASE DE DATOS DE PROGRAMACION POR: ANDRES MARTINEZ
+
+## comandos para manejar la terminal
 
 - cd '.\nombreDeLaCarpeta'      = entra a la carpeta que le indique
 - cd..                          = retrocede una carpeta
@@ -7,7 +9,7 @@
 
 
 
-#                                    ////////    comandos sobre git    ////////////
+##  comandos sobre git
 
 - git branch -m main                = con esto podemos cambiarle el nombre a nuestra rama de master a main
 
@@ -62,7 +64,7 @@
 - https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf herramienta para saber cuales son los comandos mas importantes de git
 
 
-#                            //////// repositorio colaborativo con HTPPS ////////
+## repositorio colaborativo con HTPPS 
 
 1. voy al github de la persona que tiene el proyecto original
 
@@ -105,15 +107,15 @@
 
 
 
-#                           ////////// javascript ///////////
+## javascript 
 
-.split("")                          = este metodo separa cada caracter de un string y lo combierte en un array.
+´.split("")´                          = este metodo separa cada caracter de un string y lo combierte en un array.
 
-.reverse()                          = este metodo invierte totalmente los elementos de un array.
+´.reverse()´                          = este metodo invierte totalmente los elementos de un array.
 
-.join("")                           = este metodo unifica un array de caracteres strings para volverlo un solo string.
+´.join("")´                           = este metodo unifica un array de caracteres strings para volverlo un solo string.
 
-? textoSiEsTrue : textoSiEsFalse    = con esto podemos colocar el texto que queramos retornar si la respuesta es true o false
+´? textoSiEsTrue : textoSiEsFalse´    = con esto podemos colocar el texto que queramos retornar si la respuesta es true o false
 
 //                                  = esto nos sirve para poner comentarios de una sola linea en nuestro codigo
 
@@ -132,16 +134,16 @@
 
 
 
-#                            /////////// aprendiendo react ////////////
+## aprendiendo react
 
 
-## primeros pasos para crear una app en react
+### primeros pasos para crear una app en react
 
 1. ponemos en nuestra terminal el codigo ´npx create-react-app mi_app´ (mi_app puede ser reeamplazado por el nombre que desee ponerle a mi aplicacion)
 2. luego desde la terminal entramos a nuestra app con ´cd mi_app´
 3. por ultimo pomemos npm start y ya tenemos nuestros archivos nesesarios para crear nuestra app react y emprezar a programar
 
-## curso de react
+### curso de react
 
 lo que aprendere en este curso es:
 
@@ -165,7 +167,7 @@ lo que aprendere en este curso es:
 
 
 
-## informacion importante a tener en cuenta 
+### informacion importante a tener en cuenta 
 
 - en el HTML hay una etiqueta <script type = "module" src="/src/main.jsx"><script> esto nos indica el fichero principal con el que estaremos trabajando(punto de entrada)
 
@@ -181,7 +183,7 @@ lo que aprendere en este curso es:
 
 
 
-## creacion de componentes react
+### creacion de componentes react
 
 - los componentes se escriben en PascalCase
 
@@ -199,7 +201,7 @@ import { App } from './App.jsx'
 
 
 
-## como estilar los componentes
+### como estilar los componentes
 
 1. voy a crear un archivo con la estencion .css
 
@@ -214,7 +216,7 @@ import 'App.css'
 
 
 
-## preguntas importantes de react
+### preguntas importantes de react
 
 1.  ¿cual es la base de la reutilizacion en react?
 la base de la reutilizacion en react son los parametros de los componentes
@@ -239,24 +241,24 @@ la base de la reutilizacion en react son los parametros de los componentes
 
 
 
-#                             //////// programacion orientada a objetos //////
+## programacion orientada a objetos
 
 
-## cada objeto tiene datos y funcionalidad 
+### cada objeto tiene datos y funcionalidad 
 
-### datos = atributos             = los atributos son los datos que le proporcionamos al objeto como:
+#### datos = atributos             = los atributos son los datos que le proporcionamos al objeto como:
 nombre:
 apellido:
 correo: 
 etc.
 
-### funcionalidad = metodos       = los metodos son las funciones que tiene el objeto, por ejemplo si es un usuario las funciones serian:
+#### funcionalidad = metodos       = los metodos son las funciones que tiene el objeto, por ejemplo si es un usuario las funciones serian:
 editar perfil
 cerrar sesion
 cambiar contraseña
 etc
 
-### instanciar                    = es crear un objeto por medio clase  (la clase es una plantilla que le damos a una app para crear objetos)ejemplo:
+#### instanciar                    = es crear un objeto por medio clase  (la clase es una plantilla que le damos a una app para crear objetos)ejemplo:
 clase{ 
     nombre:
     funcionQueCumple:
@@ -272,17 +274,17 @@ intancia2{
     funcionQueCumple:"cocinar la comida"
 }
 
-## abstraccion
+### abstraccion
 sintaxis = la abstraccion es pensar que atributos y metodos va a tener nuestra clase
 
-## Encapsulamiento
+### Encapsulamiento
 sintaxis = tal como lo indica su nombre es el encapsular un objeto de esta manera evita crear errores y que un objeto no interfiera en el funcionamiento del otro
 
-## polimorfismo
+### polimorfismo
 sintaxis = es polimorfismo significa que podamos darle la misma orden a diferentes objetos y todos lo hagan a su manera cumpliendo su funcion. Ejemplo:
 
 
-## herencia
+### herencia
 sintaxis = es lo que un objeto le hereda al otro sin nesecidad de que funcione exactamente igual, por ejemplo
 
 la clase padre tiene la funcion de crear un usuario, pero le creamos una clase hijo la cual tambien crea usuario pero en este caso sera un usuario profesor
@@ -291,7 +293,7 @@ luego tambien hay otra clase hijo que tambien deja crear usuario pero en este ca
 
 la encapsulacion busca que cada objeto sea responsable de su propia informacion y su propio estado
 
-### getters y setters
+#### getters y setters
 
 los getters = es la herramienta que usamos para ver los valores y 
 
@@ -305,9 +307,6 @@ los getters = es la herramienta que usamos para ver los valores y
 
 
 
-## preguntas sobre la programacion orientada a objetos
-
-¿que son los getters y los setters?
 
 
 
@@ -322,20 +321,7 @@ los getters = es la herramienta que usamos para ver los valores y
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#                       //////////// operadores aritmeticos y comparativos javascript /////////
+## operadores aritmeticos y comparativos javascript
 
 %           = se le llama modulo y se usa para saber si un numero es divisible por otro ya que si no lo es nos muestra el numero restante de la division
 ejemplo: 10 % 3 = 1
@@ -360,7 +346,7 @@ ejemplo 0 !== "0"    (false)
 
 
 
-#                        ////////// herramientas y apps utiles para programacion //////////
+## herramientas y apps utiles para programacion
 
 1. charts.css                       = es una framework de css que me puede ayudar a hacer graficas.
 
@@ -384,7 +370,7 @@ ejemplo 0 !== "0"    (false)
 
 
 
-#                       ////////// extenciones que me pueden servir para mi vscode ///////////
+## extenciones que me pueden servir para mi vscode
 
 ((( las siguientes fueron sacadas de un video de victor robles https://www.youtube.com/watch?v=PTpWW05TpUc )))
 
@@ -407,7 +393,7 @@ ejemplo 0 !== "0"    (false)
 
 
 
-#                   /////// palabras que es importante saber el significado ///////
+## Mi diccionario de programacion
 
 - componente (react) = un componente es una pieza de codigo encapsulada que puede ser reutizilable
 
@@ -442,7 +428,7 @@ https://mm.tt/app/map/3369819265?t=72GivyLvcQ
 
 
 
-##                       ///////////  trabajos para practicar codigo  ////////////
+## trabajos para practicar codigo
 
 1. hacer un bucle con while en el que hagas una cuenta atras para lanzar un cohete. 
     - adeñadirle un bucle anidado que haga tres revisiones por cada numero que cuenta atras
