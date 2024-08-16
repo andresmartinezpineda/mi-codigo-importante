@@ -1,5 +1,6 @@
 # BASE DE DATOS DE PROGRAMACION POR: ANDRES MARTINEZ
 
+
 ## comandos para manejar la terminal
 
 - cd '.\nombreDeLaCarpeta'      = entra a la carpeta que le indique
@@ -85,7 +86,7 @@
 9. aqui agregamos el nombre del commit que hicimos en el repo y tambien podemos agregarle un comentario
 
 
-((((((A partir de este momento entra en accion la persona dueño el repositorio original ))))))
+[!IMPORTANT] A partir de este momento entra en accion la persona dueño el repositorio original
 
 1. revisa los pull request en la parte superior derecha
 
