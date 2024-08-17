@@ -1,5 +1,33 @@
 # BASE DE DATOS DE PROGRAMACION POR: ANDRES MARTINEZ
 
+## HTML
+
+### Etiquetas
+
+- `<h1>` con esta etiqueta hacemos los titulos de nivel 1 en html, puedo hacer titulos de otros niveles con `<h2>,<h3>,<h4>,<h5>` 
+- `<p>` con esta etiqueta podemos poner parrafos en nuestras paginas 
+- `<strong>` con esta etiqueta podemos hacer enfasis en una palabra de nuestro HTML ya que visualmente sobresale en el texto
+- `<a>` esta etiqueta nos sirve para ponerle enlaces a nuestro html y nos puede dar una buena calidad interactiva interna y externa de nuestro sitio
+- `<br>` esta etiqueta se utiliza para dar saltos de linea
+
+[!NOTE] Las siguientes etiquetas son familiares entre si 
+- `<ul>` esta etiqueta es util para hacer listas desordenadas ya que pone un punto por cada item en lugar de ennumerarlos
+- `<ol>` esta etiqueta es util para hacer las lista ordenadas ya que los items si los ennumera
+- `<li>` esta etiqueta se usa con <ul> o <ol> para asignarles sus items de lista
+
+[!IMPORTANT] La etiqueta img se usa comunmente con los siguientes atributos
+
+`<img src="ruta_de_la_imagen.jpg" alt="texto alternativo para la imagen">`
+
+- `<img>` es la etiqueta que nos insica que usaremos una imagen
+- `src=""` es el atributo que usamos para ponerle la ruta que seguira nuestro codigo para llegar a la imagen y ponerla en el html
+- `alt=""` es el atributo que se usa para ponerle el texto alternativo que queremos que muestre nuestro html en caso de que no muestre la imagen
+
+### Atributos
+- `href=""` este atributo nos permite ponerle el destino del enlace que queramos poner, usualmente se usa con la etiqueta <a>
+- `target=""` este atributo especifica donde abrir el documento vinculado sin salir de nuestra pagina principal
+
+
 
 ## comandos para manejar la terminal
 
@@ -86,7 +114,8 @@
 9. aqui agregamos el nombre del commit que hicimos en el repo y tambien podemos agregarle un comentario
 
 
-[!IMPORTANT] A partir de este momento entra en accion la persona dueño el repositorio original
+[!IMPORTANT]
+A partir de este momento entra en accion la persona dueño el repositorio original
 
 1. revisa los pull request en la parte superior derecha
 
