@@ -10,13 +10,13 @@
 - `<a>` esta etiqueta nos sirve para ponerle enlaces a nuestro html y nos puede dar una buena calidad interactiva interna y externa de nuestro sitio
 - `<br>` esta etiqueta se utiliza para dar saltos de linea
 
->[!NOTE]
+> [!NOTE]
 > Las siguientes etiquetas son familiares entre si 
 - `<ul>` esta etiqueta es util para hacer listas desordenadas ya que pone un punto por cada item en lugar de ennumerarlos
 - `<ol>` esta etiqueta es util para hacer las lista ordenadas ya que los items si los ennumera
-- `<li>` esta etiqueta se usa con <ul> o <ol> para asignarles sus items de lista
+- `<li>` esta etiqueta se usa con `<ul>` o `<ol>` para asignarles sus items de lista
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > La etiqueta img se usa comunmente con los siguientes atributos
 
 `<img src="ruta_de_la_imagen.jpg" alt="texto alternativo para la imagen">`
@@ -116,7 +116,7 @@
 9. aqui agregamos el nombre del commit que hicimos en el repo y tambien podemos agregarle un comentario
 
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > A partir de este momento entra en accion la persona dueño el repositorio original
 
 1. revisa los pull request en la parte superior derecha
