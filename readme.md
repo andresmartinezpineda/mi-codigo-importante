@@ -2,13 +2,25 @@
 
 ## HTML
 
+### Etiquetas para estructurar nuestros HTML
+
+- `<header>` con esta etiqueta acomodamos todo lo que es el encabezado de nuestra pagina
+- `<main>` esta etiqueta en como un "contenedor" y en ella tendremos todo el contenido de lo que es nuestra pagina
+- `<footer>` esta etiqueta es para poner nuestro pie de pagina
+- `<div>` esta etiqueta tambien es un "contenedor" mas pequeño para organizar nuestro HTML
+- `<nav>` esta etiqueta se usa para crear nuestras barras de navegacion
+- `<article>` esta etiqueta es para poder dividir lo que queramos colocar en el en secciones, puede tener `<header>`, `<section>` y `<footer>`
+- `<aside>` con esta etiqueta colocamos un contenedor a la derecha de de nuestro HTML
+
+
 ### Etiquetas
 
-- `<h1>` con esta etiqueta hacemos los titulos de nivel 1 en html, puedo hacer titulos de otros niveles con `<h2>,<h3>,<h4>,<h5>` 
+- `<h1>` con esta etiqueta hacemos los titulos de nivel 1 en html, puedo hacer titulos de otros niveles con `<h2>,<h3>,<h4>,<h5>.<h6>` 
 - `<p>` con esta etiqueta podemos poner parrafos en nuestras paginas 
 - `<strong>` con esta etiqueta podemos hacer enfasis en una palabra de nuestro HTML ya que visualmente sobresale en el texto
 - `<a>` esta etiqueta nos sirve para ponerle enlaces a nuestro html y nos puede dar una buena calidad interactiva interna y externa de nuestro sitio
 - `<br>` esta etiqueta se utiliza para dar saltos de linea
+- `<figure>` con esta etiqueta podemos poner figuras <strong> averiguar mas sobre ella </strong>
 
 > [!NOTE]
 > Las siguientes etiquetas son familiares entre si 
@@ -25,10 +37,19 @@
 - `src=""` es el atributo que usamos para ponerle la ruta que seguira nuestro codigo para llegar a la imagen y ponerla en el html
 - `alt=""` es el atributo que se usa para ponerle el texto alternativo que queremos que muestre nuestro html en caso de que no muestre la imagen
 
+
 ### Atributos
 - `href=""` este atributo nos permite ponerle el destino del enlace que queramos poner, usualmente se usa con la etiqueta <a>
 - `target=""` este atributo especifica donde abrir el documento vinculado sin salir de nuestra pagina principal
 
+## ¿Como se conforma una etiqueta de HTML?
+
+se conforma por etiqueta de apertula, la cual tiene su atributo dentro, luego entre la etiqueta de apertura y de cierre esta el valor, por ultimo etiqueta de cierre
+
+`<a href="atributo">valor</a>`
+
+sin embargo tambien hay que tener en cuenta que hay etiquetas especiales que no tiene etiqueta de cierre 
+tambien hay etiquetas especiales que tienen etiqueta de apertura y de cierre pero no nesecitan valor
 
 
 ## comandos para manejar la terminal
@@ -419,6 +440,19 @@ ejemplo 0 !== "0"    (false)
 6. material icon theme              = nos muestra los iconos de nuestros diferentes archivos
 
 7. one dark pro                     = da un color bonito a nuestro vscode
+
+10. css peak                        = nos ayuda a ver desde nuestro html los estilos que tiene la etiqueta
+
+11. auto rename tag                 = nos ayuda a modificar la etiqueta de cierre modificando la de inicio
+
+12. IntelliSense for CSS class names in HTML = tengo que averiguar sobre esta
+
+13. Material Theme                  = me ayuda a que mi codigo tenga un color bonito y se vea mas ordenado
+
+14. Prettier - Code formatter       = me formatea el codigo y lo organiza
+
+15. Spanish Language Pack for Visual Studio Code = para que mi vscode este en español
+
 
 
 
