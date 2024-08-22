@@ -1,5 +1,14 @@
 # BASE DE DATOS DE PROGRAMACION POR: ANDRES MARTINEZ
 
+## Comandos para trabajar comodo en vscode
+
+Vamos a preferencias, y luego a metodos abreviados de teclado
+
+- ctrl + D = duplicar la linea
+- ctrl + < = iniciar comentarios
+- ctrl + t = abrir terminal
+
+
 ## HTML
 
 ### Etiquetas para estructurar nuestros HTML
@@ -20,6 +29,7 @@
 - `<strong>` con esta etiqueta podemos hacer enfasis en una palabra de nuestro HTML ya que visualmente sobresale en el texto
 - `<a>` esta etiqueta nos sirve para ponerle enlaces a nuestro html y nos puede dar una buena calidad interactiva interna y externa de nuestro sitio
 - `<br>` esta etiqueta se utiliza para dar saltos de linea
+- `<em>` enfatiza y pone en cursiva el texto desntro de ella
 - `<figure>` con esta etiqueta podemos poner figuras <strong> averiguar mas sobre ella </strong>
 
 > [!NOTE]
@@ -63,48 +73,48 @@ tambien hay etiquetas especiales que tienen etiqueta de apertura y de cierre per
 
 ##  comandos sobre git
 
-- git branch -m main                = con esto podemos cambiarle el nombre a nuestra rama de master a main
+- `git branch -m main`                = con esto podemos cambiarle el nombre a nuestra rama de master a main
 
-- git push -u origin main           = el primer push debe colocarse de esta manera
+- `git push -u origin main`           = el primer push debe colocarse de esta manera
 
-- git status                        = Muestra el estado de los archivos, indicando si hay cambios sin confirmar o archivos nuevos.
+- `git status`                        = Muestra el estado de los archivos, indicando si hay cambios sin confirmar o archivos nuevos.
 
-- git add .                         = Agrega todos los cambios realizados en los archivos al área de preparación (staging area) para el próximo commit.
+- `git add .`                         = Agrega todos los cambios realizados en los archivos al área de preparación (staging area) para el próximo commit.
 
-- git commit -m "nombreDelCommit"   = toma la foto definitiva despues del git add y le agrega el nombre con el que se guarda la foto
+- `git commit -m "nombreDelCommit"`   = toma la foto definitiva despues del git add y le agrega el nombre con el que se guarda la foto
 
-- git log                           = muestra la informacion con fecha y hora de los commit que se han realizado
-    * git log --graph               = es lo mismo que git log pero nos muestra los commits en forma de rama
-    * git log --graph --decorate --all --oneline = es lo mismo que git log pero muestra los commit en una sola linea
+- `git log`                           = muestra la informacion con fecha y hora de los commit que se han realizado
+    * `git log --graph`               = es lo mismo que git log pero nos muestra los commits en forma de rama
+    * `git log --graph --decorate --all --oneline` = es lo mismo que git log pero muestra los commit en una sola linea
 
-- git push                          = Sube los commits guardados localmente a GitHub o al repositorio remoto. 
+- `git push`                          = Sube los commits guardados localmente a GitHub o al repositorio remoto. 
 
-- git checkout nombreDeFichero      = con este comando puedes eliminar todos los cambios que le hiciste a un fichero hasta el ultimo commit o foto
-- git checkout numeroIdentificadorDelCommit = con este comando podemos movernos entre las ramas o commit que tenemos 
+- `git checkout nombreDeFichero`      = con este comando puedes eliminar todos los cambios que le hiciste a un fichero hasta el ultimo commit o foto
+- `git checkout numeroIdentificadorDelCommit` = con este comando podemos movernos entre las ramas o commit que tenemos 
     
-- git config --global alias.nombreDelAlias "comando que quiero lanzar" = de esta manera podemos ponerle un alias a un comando largo que utilicemos mucho
+- `git config --global alias.nombreDelAlias` "comando que quiero lanzar" = de esta manera podemos ponerle un alias a un comando largo que utilicemos mucho
 
-- git diff                          = con este comando revisamos los cambios que hemos hecho despues de haber hecho el ultimo commit(foto)
+- `git diff`                          = con este comando revisamos los cambios que hemos hecho despues de haber hecho el ultimo commit(foto)
 
-- git reset --hard numeroIdentificador = con este comando volvemos a un commit antrior borrando todos los commits que estan despues de el y podemos usarlo para volver asia adelante  tambien en caso de cometer error(((((  este comando es preferible usarlo en caso extremo ))))).
-- git reflog con este comando podemos revisar el historial de cambios que hemos hecho, en caso de hacer un git reser por error.
+- `git reset --hard numeroIdentificador` = con este comando volvemos a un commit antrior borrando todos los commits que estan despues de el y podemos usarlo para volver asia adelante  tambien en caso de cometer error(((((  este comando es preferible usarlo en caso extremo ))))).
+- `git reflog`    =con este comando podemos revisar el historial de cambios que hemos hecho, en caso de hacer un git reser por error.
 
-- git tag nombreTag                 = con este comando tagueamos o identificamos nuestros commit, por ejemplo taguear nuestra primera version de app
-- git tag                           = este comando es para revisar los tags que tenemos guardados 
+- `git tag nombreTag`  = con este comando tagueamos o identificamos nuestros commit, por ejemplo taguear nuestra primera version de app
+- `git tag`                           = este comando es para revisar los tags que tenemos guardados 
 
-- git branch nombreDeRama           = con este comando podemos crear una nueva rama en la que vamos a trabajar
-- git switch nombreDeRama           = este comando lo uso para pasar de una rama a otra
-- git merge nombreDeRama            = con este comando podemos unir las ramas en las que estamos trabajando 
-- git branch -d nombreDeRama        = con este comando eliminamos las ramas en las que hemos terminado de trabajar
+- `git branch nombreDeRama`           = con este comando podemos crear una nueva rama en la que vamos a trabajar
+- `git switch nombreDeRama`           = este comando lo uso para pasar de una rama a otra
+- `git merge nombreDeRama`            = con este comando podemos unir las ramas en las que estamos trabajando 
+- `git branch -d nombreDeRama`        = con este comando eliminamos las ramas en las que hemos terminado de trabajar
 
-- git stash                         = con este comando hacemos un commit temporal en nuestro ordenador para evitar subirlo (pausar el trabajo)
-- git stash list                    = con este comando vemos la lista de commits temporales que hemos realizado
-- git stash pop                     = con este comando recuperamos la informacion de nuestro stash
-- git stash drop                    = con este comando eliminamos la informacion guardada en nuestro stash 
+- `git stash`               = con este comando hacemos un commit temporal en nuestro ordenador para evitar subirlo (pausar el trabajo)
+- `git stash list`                    = con este comando vemos la lista de commits temporales que hemos realizado
+- `git stash pop`                     = con este comando recuperamos la informacion de nuestro stash
+- `git stash drop`                    = con este comando eliminamos la informacion guardada en nuestro stash 
 
-- git fetch                         = se descarga el historial del repositorio sin los cambios
-- git pull                          = se descarga el histotial del repositorio con los cambios (recomendado)
-- git clone                         = se clona un proyecto en el que se vaya a trabajar
+- `git fetch`                         = se descarga el historial del repositorio sin los cambios
+- `git pull`                          = se descarga el histotial del repositorio con los cambios (recomendado)
+- `git clone`                         = se clona un proyecto en el que se vaya a trabajar
 
 
 
@@ -399,7 +409,7 @@ ejemplo 0 !== "0"    (false)
 
 
 
-## herramientas y apps utiles para programacion
+## herramientas y paginas utiles para programacion
 
 1. charts.css                       = es una framework de css que me puede ayudar a hacer graficas.
 
@@ -414,6 +424,10 @@ ejemplo 0 !== "0"    (false)
 6. markmap                          = crea mapas explicando como funciona un codigo, normalmente se usa para pedir que esplique algo que hizo chat gpt
 
 7. mermaid AI                       = genera graficos a partir del lenguaje que utilizamos para programar, se usa comunmente para chat gpt
+
+8. w3schools                        = me sirve para orientarme en etiquetas html que no conozco
+
+
 
 
 
