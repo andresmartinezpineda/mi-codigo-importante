@@ -21,7 +21,6 @@ Vamos a preferencias, y luego a metodos abreviados de teclado
 - `<article>` esta etiqueta es para poder dividir lo que queramos colocar en el en secciones, puede tener `<header>`, `<section>` y `<footer>`
 - `<aside>` con esta etiqueta colocamos un contenedor a la derecha de de nuestro HTML
 
-
 ### Etiquetas
 
 - `<h1>` con esta etiqueta hacemos los titulos de nivel 1 en html, puedo hacer titulos de otros niveles con `<h2>,<h3>,<h4>,<h5>.<h6>` 
@@ -32,11 +31,13 @@ Vamos a preferencias, y luego a metodos abreviados de teclado
 - `<em>` enfatiza y pone en cursiva el texto desntro de ella
 - `<figure>` con esta etiqueta podemos poner figuras <strong> averiguar mas sobre ella </strong>
 
+
 > [!NOTE]
 > Las siguientes etiquetas son familiares entre si 
 - `<ul>` esta etiqueta es util para hacer listas desordenadas ya que pone un punto por cada item en lugar de ennumerarlos
 - `<ol>` esta etiqueta es util para hacer las lista ordenadas ya que los items si los ennumera
 - `<li>` esta etiqueta se usa con `<ul>` o `<ol>` para asignarles sus items de lista
+
 
 > [!IMPORTANT]
 > La etiqueta img se usa comunmente con los siguientes atributos
@@ -48,9 +49,15 @@ Vamos a preferencias, y luego a metodos abreviados de teclado
 - `alt=""` es el atributo que se usa para ponerle el texto alternativo que queremos que muestre nuestro html en caso de que no muestre la imagen
 
 
+
+
 ### Atributos
 - `href=""` este atributo nos permite ponerle el destino del enlace que queramos poner, usualmente se usa con la etiqueta <a>
 - `target=""` este atributo especifica donde abrir el documento vinculado sin salir de nuestra pagina principal
+
+
+
+
 
 ## ¿Como se conforma una etiqueta de HTML?
 
@@ -172,17 +179,34 @@ tambien hay etiquetas especiales que tienen etiqueta de apertura y de cierre per
 
 ## javascript 
 
-´.split("")´                          = este metodo separa cada caracter de un string y lo combierte en un array.
+### metodos
 
-´.reverse()´                          = este metodo invierte totalmente los elementos de un array.
+`.split("")`                          = este metodo separa cada caracter de un string y lo combierte en un array.
 
-´.join("")´                           = este metodo unifica un array de caracteres strings para volverlo un solo string.
+`.reverse()`                          = este metodo invierte totalmente los elementos de un array.
 
-´? textoSiEsTrue : textoSiEsFalse´    = con esto podemos colocar el texto que queramos retornar si la respuesta es true o false
+`.join("")`                           = este metodo unifica un array de caracteres strings para volverlo un solo string.
 
-//                                  = esto nos sirve para poner comentarios de una sola linea en nuestro codigo
+`? textoSiEsTrue : textoSiEsFalse`    = con esto podemos colocar el texto que queramos retornar si la respuesta es true o false
 
-/**/                                = esto nos sirve para hacer varias lineas de codigo
+`//`                                  = esto nos sirve para poner comentarios de una sola linea en nuestro codigo
+
+`/**/`                                = esto nos sirve para hacer varias lineas de codigo
+
+
+### DOM javascript
+
+- `onclick=""` = este atributo se usa para ponerle un cript a nuestros botones y hagan algo cuando les damos click
+
+#### Metodos de javascript DOM
+
+- `.innerHTML = ''` = Con este metodo podemos cambiar nuestro valor de la etiqueta que pongamos en el id
+
+- `.style.fontSize = '35px'` = con este metodo podemos cambiar el estilo a nuestra etiqueta, en este caso el tamaño de la fuente
+
+
+
+
 
 
 
